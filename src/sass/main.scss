@@ -1,7 +1,16 @@
+ul{
+    li{
+        list-style-type: none;
+    }
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
 // HERO STARTS //
 .hero{
     padding: 50px;
     height: 90vh;
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.65),
         rgba(0, 0, 0, 0.65)
@@ -10,7 +19,7 @@
     &__description{
         &--title{
             color: #ffffff;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 3rem;
         }
         &--text{
@@ -36,10 +45,20 @@
 .signup{
     background: #D9D9D9;
     padding: 100px;
+    font-family: 'Roboto', sans-serif;
     &--title{
         color: #454545;
         font-weight: 500;
         font-size: 2rem;
+    }
+    &--hr{
+        width: 5vw;
+        background: transparent;
+        height: 5px;
+    }
+    &--hr:hover{
+        background: #FA4B14;
+        width: 10vw;
     }
     &--btn{
         border: none;
@@ -54,6 +73,7 @@
 
 // WHY US STARTS //
 .whyus{
+    font-family: 'Roboto', sans-serif;
     padding: 50px;
     color: #454545;
     &--title{
@@ -77,11 +97,11 @@
         padding: 20px;
         &--subtitle{
             font-weight: 500;
-            font-size: 22px;
+            font-size: 18px;
         }
         &--img{
             width: 6vw;
-            margin-left: 50px;
+            // margin-left: 50px;
             align-self: center;
         }
     }
@@ -90,9 +110,11 @@
 
 // WHATWEDO STARTS //
 .whatwedo{
+    font-family: 'Roboto', sans-serif;
     padding: 30px;
     color: #454545;
     &__description{
+        text-align: center;
         &--title{
             font-weight: 500;
             font-size: 2rem;
@@ -148,6 +170,7 @@
 
 // VISIONMISSION STARTS //
 .visionmission{
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url('../../public/images/Vision.png');
     padding: 150px;
@@ -172,6 +195,7 @@
 
 // PRODUCTS STARTS //
 .products{
+    font-family: 'Roboto', sans-serif;
     &--title{
         font-weight: 500;
         font-size: 2rem;
@@ -187,7 +211,6 @@
     }
     background-color: #D9D9D9;
     &__description{
-        // background-color: red;
         &--title{
             font-weight: 500;
             font-size: 1rem;
@@ -196,7 +219,8 @@
         }
         &--img{
             width: 30vw;
-            padding-left: 30px;
+            padding-left: 20px;
+            height: 30vh;
             cursor: pointer;
         }
         &--price{
@@ -216,6 +240,7 @@
 }
 // OUR PARTNERS STARTS //
 .partners{
+    font-family: 'Roboto', sans-serif;
     padding: 40px;
     &--title{
         font-weight: 700;
@@ -232,10 +257,15 @@
         cursor: pointer;
         width: 10vw;
     }
+    &--img{
+        width: 15vw;
+        padding: 10px;
+    }
 }
 // OUR PARTNERS ENDS //
 // FOOTER STARTS //
 .footer{
+    font-family: 'Roboto', sans-serif;
     // padding: 40px;
     color: #ffffff;
     background-color: #2F2E2C;
@@ -260,11 +290,16 @@
 }
 // DETAILS STARTS //
 .details{
+    font-family: 'Roboto', sans-serif;
     padding: 50px;
     color: #454545;
     &--title{
         font-weight: 400;
         font-size: 3.7rem;
+    }
+    &--subtitle{
+        font-weight: 400;
+        font-size: 2rem;
     }
     &--price{
         font-size: 1.5rem;
@@ -285,10 +320,11 @@
 
 // NAVBAR //
 .navi{
+    font-family: 'Roboto', sans-serif;
     &__nav{
         color: #ffffff;
         position: relative;
-        padding: 80px;
+        padding: 120px;
         background: #2F2E2C;
         position: sticky;
     }

@@ -3,7 +3,7 @@ const PRODUCTS__SCHEMA = [
     id: 0,
     title: 'Electronics',
     price: 50000,
-    image: '/images/ai.png',
+    image: '/images/pic.png',
     items: [
       {
         id: 0,
@@ -35,7 +35,7 @@ const PRODUCTS__SCHEMA = [
     id: 2,
     title: 'Drone',
     price: 50000,
-    image: '/images/drone.png',
+    image: '/images/pic.png',
     items: [
       {
         id: 0,
@@ -55,7 +55,7 @@ const PRODUCTS__SCHEMA = [
     id: 3,
     title: 'Power-Management',
     price: 80000,
-    image: '/images/esap.png',
+    image: '/images/pic.png',
     items: [
       {
         id: 0,

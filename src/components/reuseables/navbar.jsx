@@ -26,16 +26,16 @@ function Navbar() {
               {/* <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">Blog</Link>
               </li> */}
-              <li className="nav-item">
+              <li className="nav-item p-3">
                 <Link className="nav-link text-white" to="/">About</Link>
               </li>
             </ul>
             <div className="d-flex">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+                <li className="nav-item p-3">
                   <Link className="nav-link active text-white" aria-current="page" to="/">Blog</Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item p-3">
                   <Link className="nav-link text-white" to="/contact-us">Contact</Link>
                 </li>
               </ul>

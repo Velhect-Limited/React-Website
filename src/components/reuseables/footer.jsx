@@ -25,22 +25,26 @@ function Footer() {
             <img src="/images/logo.png" alt="" className="img-fluid footer-img" />
           </div>
         </div>
-        <div className="row border-top align-items-center">
+        <div className="row border-top border-white align-items-center">
           <div className="col-md-8">
             <div className="row">
-              <div className="col-4">Privacy Policy</div>
-              <div className="col-4">FAQs</div>
-              <div className="col-4">Contact Us</div>
+              <ul className="d-flex">
+                <li className="p-5">Privacy Policy</li>
+                <li className="p-5">FAQs</li>
+                <li className="p-5">Contact Us</li>
+              </ul>
             </div>
           </div>
           <div className="col-md-4">
             <div className="row">
-              <div className="col-4">1</div>
-              <div className="col-4">2</div>
-              <div className="col-4">3</div>
+              <ul className="d-flex align-items-end text-end">
+                <li className="p-3"><img src="/images/face.png" alt="" className="img-fluid" /></li>
+                <li className="p-3"><img src="/images/insta.png" alt="" className="img-fluid" /></li>
+                <li className="p-3"><img src="/images/twit.png" alt="" className="img-fluid" /></li>
+              </ul>
             </div>
           </div>
-          <div className="col-md-10 text-center mx-auto p-5">
+          <div className="col-md-10 text-center mx-auto p-3">
             @ 2022 Velhect All right reserved
           </div>
         </div>

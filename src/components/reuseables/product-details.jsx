@@ -15,9 +15,9 @@ function ProductDetails() {
             {
             products && products.filter((val) => val.title === title).map((val) => (
               <>
-                <div key={val.id} className="col-md-6 p-3">
+                <div key={val.id} className="col-md-6 p-5 border-right">
                   <div className="card p-3 shadow-sm border-0">
-                    <img src={val.image} alt="" className="img-fluid" />
+                    <img src={val.image} alt="" className="img-fluid p-3" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -36,7 +36,7 @@ function ProductDetails() {
                   <button type="button" className="details--btn">purchase</button>
                 </div>
                 <div className="col-md-10">
-                  <div className="details--title">Related Products</div>
+                  <div className="details--subtitle">Related Products</div>
                   <div className="row align-items-center p-2">
                     {val.items.map(({ id, img }) => (
                       <div className="col-md-4 p-3" key={id}>

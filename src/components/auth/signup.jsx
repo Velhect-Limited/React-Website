@@ -8,10 +8,17 @@ function Signup() {
       <Navbar />
       <div className="signup">
         <div className="container">
-          <div className="row p-4">
+          <div className="row ">
 
             <div className="col-md-7">
-              <div className="signup--title mb-4">Contact Us</div>
+              <div className="signup--title mb-2">Contact Us</div>
+              <div className="signup--hr" />
+              <p className="text-start py-2">
+                Share the details of your project (e.g scope of project, timeframe)
+                Our team would carefully study them and we will figure out something together
+                {' '}
+
+              </p>
               <form>
                 <div className="row g-3">
                   <div className="col-6">
